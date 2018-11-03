@@ -1,0 +1,11 @@
+@mixin adf-text-viewer-theme($theme) {
+    $background: map-get($theme, background);
+
+    .adf-txt-viewer {
+        background-color: mat-color($background, background);
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+    }
+}

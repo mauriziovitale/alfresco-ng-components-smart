@@ -1,0 +1,37 @@
+.adf-search-filter {
+
+    .checklist {
+        display: flex;
+        flex-direction: column;
+
+        .mat-checkbox {
+            margin: 5px;
+
+            &.mat-checkbox-checked .mat-checkbox-label {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .facet-result-filter {
+        display: flex;
+        flex-direction: column;
+
+        & > * {
+            width: 100%;
+        }
+    }
+
+    .facet-buttons {
+        text-align: right;
+
+        .mat-button {
+            text-transform: uppercase;
+        }
+
+        &--topSpace {
+            padding-top: 15px;
+        }
+    }
+
+}
